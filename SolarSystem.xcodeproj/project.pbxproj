@@ -15,6 +15,11 @@
 		BA409ACE20A3825200C1FAFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA409ACC20A3825200C1FAFC /* LaunchScreen.storyboard */; };
 		BA409AD920A3825200C1FAFC /* SolarSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA409AD820A3825200C1FAFC /* SolarSystemTests.swift */; };
 		BA409AE420A3825200C1FAFC /* SolarSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA409AE320A3825200C1FAFC /* SolarSystemUITests.swift */; };
+		BAC16A6E20A4B7B300C3D02D /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC16A6D20A4B7B300C3D02D /* Planet.swift */; };
+		BAC16A7120A4BEE600C3D02D /* Stars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = BAC16A6F20A4BEE600C3D02D /* Stars.scnp */; };
+		BAC16A7220A4BEE600C3D02D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC16A7020A4BEE600C3D02D /* star.png */; };
+		BAC16A7520A4C03000C3D02D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC16A7320A4C03000C3D02D /* spark.png */; };
+		BAC16A7620A4C03000C3D02D /* Sun.scnp in Resources */ = {isa = PBXBuildFile; fileRef = BAC16A7420A4C03000C3D02D /* Sun.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		BA409ADF20A3825200C1FAFC /* SolarSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA409AE320A3825200C1FAFC /* SolarSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemUITests.swift; sourceTree = "<group>"; };
 		BA409AE520A3825200C1FAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC16A6D20A4B7B300C3D02D /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		BAC16A6F20A4BEE600C3D02D /* Stars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Stars.scnp; sourceTree = "<group>"; };
+		BAC16A7020A4BEE600C3D02D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		BAC16A7320A4C03000C3D02D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		BAC16A7420A4C03000C3D02D /* Sun.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Sun.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				BA409AC120A3824F00C1FAFC /* AppDelegate.swift */,
 				BA409AC320A3824F00C1FAFC /* art.scnassets */,
 				BA409AC520A3824F00C1FAFC /* ViewController.swift */,
+				BAC16A7320A4C03000C3D02D /* spark.png */,
+				BAC16A7420A4C03000C3D02D /* Sun.scnp */,
+				BAC16A6F20A4BEE600C3D02D /* Stars.scnp */,
+				BAC16A7020A4BEE600C3D02D /* star.png */,
+				BAC16A6D20A4B7B300C3D02D /* Planet.swift */,
 				BA409AC720A3824F00C1FAFC /* Main.storyboard */,
 				BA409ACA20A3825200C1FAFC /* Assets.xcassets */,
 				BA409ACC20A3825200C1FAFC /* LaunchScreen.storyboard */,
@@ -232,10 +247,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC16A7620A4C03000C3D02D /* Sun.scnp in Resources */,
 				BA409AC420A3824F00C1FAFC /* art.scnassets in Resources */,
 				BA409ACE20A3825200C1FAFC /* LaunchScreen.storyboard in Resources */,
 				BA409ACB20A3825200C1FAFC /* Assets.xcassets in Resources */,
+				BAC16A7520A4C03000C3D02D /* spark.png in Resources */,
+				BAC16A7120A4BEE600C3D02D /* Stars.scnp in Resources */,
 				BA409AC920A3824F00C1FAFC /* Main.storyboard in Resources */,
+				BAC16A7220A4BEE600C3D02D /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC16A6E20A4B7B300C3D02D /* Planet.swift in Sources */,
 				BA409AC620A3824F00C1FAFC /* ViewController.swift in Sources */,
 				BA409AC220A3824F00C1FAFC /* AppDelegate.swift in Sources */,
 			);
