@@ -76,6 +76,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 			planetNode.addChildNode(ringNode)
 		}
 		
+		// This code is a chapter challenge. Does not add moon to earth
 		if planet.name == "earth" {
 			let moonGeometry = SCNSphere(radius: 0.25)
 			moonGeometry.firstMaterial?.diffuse.contents = UIColor.lightGray
